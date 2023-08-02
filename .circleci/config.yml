@@ -4,6 +4,7 @@ executors:
     docker:
       - image: circleci/openjdk:13.0-buster-node-browsers-legacy
 
+
 jobs:
   build_and_push_tag_image:
     executor: docker-executor
